@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.12.2
+  sdk: ^3.11.5
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -31,7 +31,7 @@ dependencies:
   # State Management
   flutter_bloc: ^9.1.1
   equatable: ^2.0.5
-
+  flutter_secure_storage: ^11.2.0
   # Routing
   go_router: ^15.1.2
 
@@ -58,7 +58,6 @@ dependencies:
   # Attribution & Campaign Analytics
   adjust_sdk: ^5.6.2
   app_tracking_transparency: ^2.0.6+1
-  clarity_flutter: ^1.10.0
 
 
 dev_dependencies:
